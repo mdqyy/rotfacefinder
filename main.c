@@ -154,8 +154,7 @@ int main(int argc, char* argv[])
 		printf("All rights reserved.\n\n");
 
 		minfacesize = 100;
-		///qcutoff = 7.5f;
-		qcutoff = 10.0f;
+		qcutoff = 7.5f;
 
 		process_webcam_frames();
 	}
